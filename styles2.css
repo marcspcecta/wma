@@ -1,4 +1,10 @@
-.row-featurette
+#text{
+    
+    padding-top:150px;
+   
+}
+
+
 
 .topcontainer{
     background-color:black;
@@ -55,6 +61,8 @@ footer {
     padding: 10px;
   }
   
+
+ 
   
   @media (max-width: 767px) {
 
@@ -82,6 +90,17 @@ footer {
       }
   
     }
+
+  
+ 
+  
+  
+  
+  
+  
+  
+
+
 
   
  

@@ -75,7 +75,7 @@ footer {
       }
 
       footer {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
       }
     

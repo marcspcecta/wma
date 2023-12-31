@@ -1,13 +1,63 @@
-.topmarg{
-    
-    padding-top:150px;
-   
+.seccontainer {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.seccontainer > * {
+    flex-basis: 33vw;
+    height: 50vh;
+    overflow: hidden; /* Ensures images don't overflow their containers */
+}
+
+.one img,
+.two img,
+.three img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintains aspect ratio and covers entire container */
+}
+
+.one,
+.two,
+.three {
+   margin:10px;
 }
 
 
+.captcon{
+    display: flex;
+    margin-top:0px;
+
+}
+
+.captcon > *{
+    flex-basis:33vw;
+    height: 20vh;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.uno,
+.dos,
+.tres {
+    margin:10px;
+    
+}
+
+.attach{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+.nav{
+    margin-top:10px;
+}
+
 .topcontainer{
     background-color:black;
-   
 }
 
 .fs-4 {
@@ -33,20 +83,6 @@
     background-color: #f8f9fa;
 }
 
-
-#carouselExampleAutoplaying {
-    max-width: 65vw; /* Set the maximum width of the carousel */
-    margin: 0 auto; /* Center the carousel horizontally */
-  }
-  
-  #carouselExampleAutoplaying .carousel-inner {
-    text-align: center; /* Center the images within the carousel */
-  }
-  
-  #carouselExampleAutoplaying img {
-    height: 70vh; /* Set a fixed height for the images */
-    margin: 0 auto; /* Center the images horizontally within the carousel item */
-  }
   
   .text-body-secondary {
     --bs-text-opacity: 1;
@@ -60,8 +96,6 @@ footer {
     padding: 10px;
   }
   
-
- 
   
   @media (max-width: 767px) {
 
@@ -89,17 +123,6 @@ footer {
       }
   
     }
-
-  
- 
-  
-  
-  
-  
-  
-  
-
-
 
   
  

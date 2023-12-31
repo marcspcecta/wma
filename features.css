@@ -1,9 +1,22 @@
+
+
+
+
+.titles{
+    
+    padding-top:150px;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+
 .nav{
     margin-top:10px;
 }
 
+
 .topcontainer{
     background-color:black;
+   
 }
 
 .fs-4 {
@@ -56,6 +69,8 @@ footer {
     padding: 10px;
   }
   
+
+ 
   
   @media (max-width: 767px) {
 
@@ -83,6 +98,17 @@ footer {
       }
   
     }
+
+  
+ 
+  
+  
+  
+  
+  
+  
+
+
 
   
  

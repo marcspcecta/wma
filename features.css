@@ -42,20 +42,6 @@
     background-color: #f8f9fa;
 }
 
-
-#carouselExampleAutoplaying {
-    max-width: 65vw; /* Set the maximum width of the carousel */
-    margin: 0 auto; /* Center the carousel horizontally */
-  }
-  
-  #carouselExampleAutoplaying .carousel-inner {
-    text-align: center; /* Center the images within the carousel */
-  }
-  
-  #carouselExampleAutoplaying img {
-    height: 70vh; /* Set a fixed height for the images */
-    margin: 0 auto; /* Center the images horizontally within the carousel item */
-  }
   
   .text-body-secondary {
     --bs-text-opacity: 1;
@@ -96,6 +82,19 @@ footer {
       footer div {
         margin-bottom: 10px;
       }
+
+      .titles{
+    
+        padding-top:10px;
+        
+    }
+
+    .ftimg{
+      width:90vw;
+      height:40vh;
+    }
+
+
   
     }
 

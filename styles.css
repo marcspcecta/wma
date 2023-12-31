@@ -1,3 +1,4 @@
+
 .nav{
     margin-top:10px;
 }
@@ -54,7 +55,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+  
   }
+
+ 
   
   
   @media (max-width: 767px) {
@@ -75,7 +79,7 @@ footer {
 
       footer {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
       }
     
       footer div {

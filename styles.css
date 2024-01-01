@@ -16,7 +16,7 @@
     justify-content:center;
     margin-top:30px;
     position: absolute;
-    bottom: 0;
+    bottom:0;
     width: 100%;
 }
 
@@ -70,14 +70,11 @@
   @media (max-width: 768px) {
 
     #carouselExampleAutoplaying {
-      
         max-width: 65vw; /* Set the maximum width of the carousel */
         margin: 0 auto; /* Center the carousel horizontally */
       }
       
       #carouselExampleAutoplaying .carousel-inner {
-        margin-top:90px;
-        margin-bottom:90px;
         text-align: center; /* Center the images within the carousel */
       }
       
@@ -87,19 +84,14 @@
       }
 
   
-  
-    .lowcontainer{
-      background-color:black;
-      display:flex;
-      height:10vh;
-      width:100%;
-      align-items:center;
-      justify-content:center;
-      margin-top:30px;
-       
-  }
-
-  .midcont\
+      .lowcontainer{
+        background-color:black;
+        display:flex;
+        height:20vh;
+        align-items:center;
+        justify-content:center;
+        margin-top:30px;
+      }  
     
     }
 

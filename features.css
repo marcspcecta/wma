@@ -57,6 +57,7 @@
     justify-content:center;
     margin-top:30px;
     
+    
 }
  
   
@@ -89,15 +90,18 @@
       height:40vh;
     }
     
-    .lowcontainer{
-      background-color:black;
-      display:flex;
-      height:31vh;
-      align-items:center;
-      justify-content:center;
-      margin-top:30px;
-       
-  }
+
+
+  .lowcontainer{
+    background-color:black;
+    display:flex;
+    height:10vh;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+  
+}
 
   
     }

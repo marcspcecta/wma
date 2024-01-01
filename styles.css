@@ -1,10 +1,11 @@
 
+
 .nav{
     margin-top:10px;
 }
-
 .topcontainer{
     background-color:black;
+    
 }
 
 .fs-4 {
@@ -12,6 +13,18 @@
     color:white;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+.lowcontainer{
+    background-color:black;
+    height:11vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+    
+    
+}
+
 
 .nav-link {
     display: block;
@@ -50,16 +63,8 @@
     color: #f8f9fa!important;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  
-  }
 
- 
-  
+
   
   @media (max-width: 767px) {
 
@@ -77,14 +82,6 @@ footer {
         margin: 0 auto; /* Center the images horizontally within the carousel item */
       }
 
-      footer {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      footer div {
-        margin-bottom: 10px;
-      }
   
     }
 

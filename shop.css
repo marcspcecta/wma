@@ -89,12 +89,16 @@
     color: #f8f9fa!important;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
+.lowcontainer{
+  background-color:black;
+  height:11vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:30px;
+  
+  
+}
   
   
   @media (max-width: 767px) {

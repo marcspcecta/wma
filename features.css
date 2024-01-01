@@ -55,7 +55,16 @@ footer {
     padding: 10px;
   }
   
-
+  .lowcontainer{
+    background-color:black;
+    height:11vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+    
+    
+}
  
   
   @media (max-width: 767px) {

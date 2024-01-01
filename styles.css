@@ -8,8 +8,6 @@
     
 }
 
-
-
 .lowcontainer{
     background-color:black;
     display:flex;
@@ -17,6 +15,9 @@
     align-items:center;
     justify-content:center;
     margin-top:30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .fs-4 {
@@ -69,11 +70,13 @@
   @media (max-width: 768px) {
 
     #carouselExampleAutoplaying {
+      
         max-width: 65vw; /* Set the maximum width of the carousel */
         margin: 0 auto; /* Center the carousel horizontally */
       }
       
       #carouselExampleAutoplaying .carousel-inner {
+        margin-top:90px;
         text-align: center; /* Center the images within the carousel */
       }
       

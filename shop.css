@@ -97,7 +97,6 @@
   justify-content:center;
   margin-top:30px;
   
-  
 }
   
   
@@ -117,13 +116,15 @@
         margin: 0 auto; /* Center the images horizontally within the carousel item */
       }
 
-      footer {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      footer div {
-        margin-bottom: 10px;
+
+      .lowcontainer{
+        background-color:black;
+        display:flex;
+        height:31vh;
+        align-items:center;
+        justify-content:center;
+        margin-top:30px;
+         
       }
   
     }

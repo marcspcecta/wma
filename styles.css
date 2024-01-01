@@ -8,21 +8,22 @@
     
 }
 
+
+
+.lowcontainer{
+    background-color:black;
+    display:flex;
+    height:11vh;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+     
+}
+
 .fs-4 {
     font-size: calc(2.275rem + .3vw)!important;
     color:white;
     font-family: 'Bebas Neue', sans-serif;
-}
-
-.lowcontainer{
-    background-color:black;
-    height:11vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-top:30px;
-    
-    
 }
 
 
@@ -82,7 +83,17 @@
         margin: 0 auto; /* Center the images horizontally within the carousel item */
       }
 
-  
+      .lowcontainer{
+        background-color:black;
+        display:flex;
+        height:31vh;
+        align-items:center;
+        justify-content:center;
+        margin-top:30px;
+         
+      }
+
+    
     }
 
   

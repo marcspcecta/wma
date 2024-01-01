@@ -67,7 +67,7 @@
 
 
   
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
 
     #carouselExampleAutoplaying {
         max-width: 65vw; /* Set the maximum width of the carousel */
@@ -86,12 +86,12 @@
       .lowcontainer{
         background-color:black;
         display:flex;
-        height:23vh;
+        height:11vh;
         align-items:center;
         justify-content:center;
         margin-top:30px;
          
-      }
+    }
   
     
     }

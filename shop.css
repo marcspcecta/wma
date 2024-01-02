@@ -32,7 +32,7 @@
 
 .captcon > *{
     flex-basis:33vw;
-    height: 20vh;
+    height: 11vh;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -40,7 +40,7 @@
 .uno,
 .dos,
 .tres {
-    margin:10px;
+   
     
 }
 
@@ -91,17 +91,17 @@
 
 .lowcontainer{
     background-color:black;
-    display:flex;
     height:11vh;
+    display:flex;
     align-items:center;
     justify-content:center;
-    margin-top:30px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-  
-  
+    margin-top:5rem;
+    
+    
+} 
+
+
+
   @media (max-width: 768px) {
 
     #carouselExampleAutoplaying {
@@ -117,6 +117,13 @@
         height: 40vh; /* Set a fixed height for the images */
         margin: 0 auto; /* Center the images horizontally within the carousel item */
       }
+      
+      .uno,
+      .dos,
+      .tres {
+         margin-bottom:2rem
+          
+      }
 
 
       .lowcontainer{
@@ -129,6 +136,7 @@
         margin-top:30px;
       
     }
+  
   
     }
 

@@ -1,12 +1,14 @@
 .seccontainer {
     display: flex;
     margin-bottom: 0px;
+    
 }
 
 .seccontainer > * {
     flex-basis: 33vw;
     height: 50vh;
     overflow: hidden; /* Ensures images don't overflow their containers */
+    
 }
 
 .one img,
@@ -15,18 +17,22 @@
     width: 100%;
     height: 100%;
     object-fit: cover; /* Maintains aspect ratio and covers entire container */
+    
 }
+
 
 .one,
 .two,
 .three {
    margin:10px;
+   
 }
 
 
 .captcon{
     display: flex;
     margin-top:0px;
+    
 
 }
 
@@ -40,7 +46,8 @@
 .uno,
 .dos,
 .tres {
-   
+    padding:1rem;
+    
     
 }
 
@@ -121,7 +128,7 @@
       .uno,
       .dos,
       .tres {
-         margin-bottom:2rem
+         margin-bottom:4rem
           
       }
 

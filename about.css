@@ -1,0 +1,66 @@
+
+.aboutpara{
+    margin:10vh;
+}
+
+
+
+.nav{
+    margin-top:10px;
+}
+
+.topcontainer{
+    background-color:black;
+}
+
+.fs-4 {
+    font-size: calc(2.275rem + .3vw)!important;
+    color:white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #f8f9fa;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #f8f9fa;
+}
+
+  
+  .text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #f8f9fa!important;
+}
+
+
+
+
+
+  @media (max-width: 768px) {
+
+   
+      
+    
+  
+  
+    }
+
+  
+ 
+  
+  
+  
+  
+  
+  
+

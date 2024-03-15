@@ -1,6 +1,10 @@
 
 .aboutpara{
     margin:10vh;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 

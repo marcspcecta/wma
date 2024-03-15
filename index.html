@@ -30,74 +30,99 @@
   </head>
 
   <body>
+   
     <div class="topcontainer">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <img src="./assets/PNG.png" width="70" />
-          <span class="fs-4">warma</span>
-        </a>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <img src="./assets/PNG.png" width="70">
+              <span class="fs-4">warma</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="./prod.html" class="nav-link">Products</a></li>
+              <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+            </ul>
+          </header>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link active" aria-current="page"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="./features.html" class="nav-link">Features</a>
-          </li>
-          <li class="nav-item">
-            <a href="./shop.html" class="nav-link">Products</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        </ul>
-      </header>
     </div>
 
-    <div class="midcontainer">
-      <div
-        id="carouselExampleAutoplaying"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/use.1.JPG" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/use.2.JPG" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/JPG.jpg" class="d-block w-100" alt="..." />
-          </div>
+    
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 class="display-3 fw-bold">Designed for warmth</h1>
+          <h3 class="fw-normal text-muted mb-3">Get warmer with <span class="warma">Warma.</span></h3>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
-    <footer class="lowcontainer">
-      <img src="./assets/PNG.png" width="70" height="50" class="footerlogo" />
-    </footer>
-  </body>
+    
+
+  
+          <!-- START THE FEATURETTES -->
+          <div class="container marketing">
+
+        
+        
+            <!-- START THE FEATURETTES -->
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h1 class="featurette-heading fw-normal lh-1 titles">Stitched together</h1>
+                <p class="lead">This hoodie is stitched to additional components to provide extra warmth and comfort. The neck is
+                    joined to a snood, which is attached to a mask. This can be worn in a variety of ways. The sleeves are joined to
+                    thumb loops.
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img src="./assets/stitchedtgthernew.JPG" height="500" width="500" class="ftimg">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h1 class="featurette-heading fw-normal lh-1 titles">Snood</h1>
+                <p class="lead">The snood is another key feature of this hoodie. It can be used as an alternative to wearing the mask while
+                  your neck is covered. It is attached to the hoodie and mask so it securely prevents cold wind, rain or snow from entering
+                  inside.</p>
+                </p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img src="./assets/snood2new.JPG" class="ftimg bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h1 class="featurette-heading fw-normal lh-1 titles">Thumb-loops</h1>
+                <p class="lead">The thumb-loops can serve as gloves, or as attachments to wear when gloves are 
+                    worn. They make the sleeves immovable,  preventing skin from being exposed to cold environments.
+                    Thumb loops do not have to be worn as they easily fold within the sleeves or the sleeve can be pulled up.
+                </p>
+              </div>
+              <div class="col-md-5">
+                <img src="./assets/handnew.JPG" width="500" height="500" class="ftimg">
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+        
+            <!-- /END THE FEATURETTES -->
+        
+          </div>
+      
+      
+      
+
+
+
+         
+</body>    
 </html>
